@@ -87,4 +87,4 @@ gulp.task('images', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'logo', 'icons', 'mailer', 'images', 'html'));
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'logo', 'icons', 'mailer', 'media', 'images', 'html'));

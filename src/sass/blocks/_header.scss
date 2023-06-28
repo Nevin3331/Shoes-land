@@ -1,0 +1,101 @@
+.header {
+    height: 700px;
+    background-color: #000000;
+    position: relative;
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 300px;
+        margin-top: 11px;
+        margin-left: 60px;
+        &-item {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.2px;
+        }
+        &-link {
+            color: white;
+            text-decoration: none;
+            margin-left: 21px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            a {
+                text-decoration: none;
+            }
+        }
+        &-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 125px;
+        margin-top: 11px;
+        margin-left: 170px;
+        align-items: center;
+        a {
+            text-decoration: none;
+        }
+    }
+    &__sidebar {
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(3, 414px);
+        height: 55px;
+        justify-items: center;
+        justify-content: center;
+        z-index: 3;
+    }
+    &_block {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    &__color {
+        display: flex;
+        margin-right: 1065px;
+        margin-top: 185px;
+    }
+
+}
+
+
+.hamburger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 17px;
+    left: 30px;
+    height: 15px;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 40px;
+        height: 2px; 
+        background-color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
